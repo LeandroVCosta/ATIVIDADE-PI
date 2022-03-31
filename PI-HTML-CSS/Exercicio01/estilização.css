@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagem.jpg); 
+    backdrop-filter: blur(100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#A {
+    overflow: hidden;
+    background-image: url(https://png.pngtree.com/png-clipart/20200618/ourlarge/pngtree-white-smoky-transparent-cloud-png-image_2258630.jpg);
+    width: 500px; height: 450px; 
+    margin-top: 50px;
+    box-shadow: 10px 05px black;
+ }
+ #A:hover {
+    -moz-transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    transition: all 0.7s;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+#B {
+    font-family: monospace;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin-top: 10px;
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.button {
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    background-color: white;
+    font-family: monospace;
+    font-size: 15px;
+    color: black;
+}
+
+#resultado {
+    margin-top: 30px;
+    color: lightgreen;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bolder;
+}

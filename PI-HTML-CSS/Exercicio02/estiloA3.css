@@ -1,0 +1,36 @@
+body {
+    background-color: #d3d3d3;
+}
+
+.div01 {
+    background-color: white;
+    height: 500px;
+    width: 50vw;
+    border: dotted; color: black; width: 10px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divfilho01 {
+    background-color: yellow;
+    height: 50px;
+    width: 30%;
+}
+
+.divfilho02 {
+    background-color: rgb(255, 165, 0);
+    height: 100px;
+    width: 30%;
+}
+.divfilho03 {
+    background-color: rgb(0, 255, 0);
+    color: white;
+    font-size: 30px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/* PADDING = INTERNO
+MARGIN = EXTERNO */
