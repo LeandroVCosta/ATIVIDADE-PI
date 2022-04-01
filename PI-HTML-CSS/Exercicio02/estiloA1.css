@@ -1,7 +1,7 @@
 .corpo .div01 {
     width: 50px;
     height: 50px;
-    border: solid; color: green; width: 2px;
+    border: 2px solid; color: green;
     margin-top: 100px;
 }
 
@@ -9,7 +9,7 @@
     background-color: black;
     height: 50vh;
     width: 50%;
-    border: dashed; color: red; width: 10px;
+    border: 10px dashed; color: red;
     margin-left: 100px;
     margin-top: 100px;
 }

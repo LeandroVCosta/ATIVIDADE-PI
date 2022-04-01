@@ -6,7 +6,7 @@ body {
     background-color: white;
     height: 500px;
     width: 50vw;
-    border: dotted; color: black; width: 10px;
+    border: 10px dotted; color: black; 
     display: flex; 
     flex-direction: column;
     justify-content: center;

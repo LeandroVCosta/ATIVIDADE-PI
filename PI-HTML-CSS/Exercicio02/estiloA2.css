@@ -10,8 +10,7 @@
   background-color: #ffcbdb;
   height: 100%;  
   width: 250px;
-  border: solid; color: red; width: 20px;
-
+  border: 20px solid; color: red; 
 }
 
 .div03 {
